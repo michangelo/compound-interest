@@ -1,3 +1,4 @@
+#include "io.h"
 #include <cmath>
 
 double calculateInterest(double p, double r, double t)

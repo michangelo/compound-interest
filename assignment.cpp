@@ -1,3 +1,4 @@
+#include "io.h"
 #include <iostream>
 #include <cmath>
 
@@ -7,9 +8,9 @@ double calculateInterest(double, double, double);
 int main()
 {
     // user input for principal 
-	std::cout << "Principal: ";          
-	double principal{};
-	std::cin >> principal;
+    std::cout << "Principal: ";          
+    double principal{};
+    std::cin >> principal;
 
     // user input for rate
 	std::cout << "Interest Rate: ";      
