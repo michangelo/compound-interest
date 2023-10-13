@@ -2,7 +2,7 @@
 #include <cmath>
 
 // forward declare calculateInterest function
-double calculateInterest(double principal, double rate, double timespan);
+double calculateInterest(double, double, double);
 
 int main()
 {
