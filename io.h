@@ -1,6 +1,6 @@
-#ifndef HEADER_H
-#define HEADER_H
+#ifndef IO_H
+#define IO_H
 
-double calculateInterest(double p, double r, double t);
+double calculateInterest(double principal, double rate, double timespan);
 
 #endif 

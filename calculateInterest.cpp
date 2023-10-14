@@ -1,7 +1,7 @@
 #include "io.h"
 #include <cmath>
 
-double calculateInterest(double p, double r, double t)
+double calculateInterest(double principal, double rate, double timespan)
 {
-	return p * pow((1 + r / 100.00), t);
+	return principal * pow((1 + rate / 100.00), timespan);
 }
