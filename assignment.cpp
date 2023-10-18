@@ -2,6 +2,15 @@
 #include <iostream>
 #include <cmath>
 
+/* Test expected output:
+Principal: 1500
+Interest Rate: 12.5
+Time Span: 3
+
+Compound Interest: 635.742
+Total Amount: 2135.74
+*/
+
 double calculateInterest(double principal, double rate, double timespan)
 {
 	return principal * pow((1 + rate / 100.00), timespan);
@@ -29,7 +38,7 @@ int main()
 	compound_interest = total_amount - principal;
 
 	// print calculations for compound interest and total amount
-	std::cout << "Compound Interest: " << compound_interest << '\n';
+	std::cout << '\n' << "Compound Interest: " << compound_interest << '\n';
 	std::cout << "Total Amount: " << total_amount << '\n';
 
 	return 0;
