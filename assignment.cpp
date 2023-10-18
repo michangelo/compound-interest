@@ -2,6 +2,11 @@
 #include <iostream>
 #include <cmath>
 
+double calculateInterest(double principal, double rate, double timespan)
+{
+	return principal * pow((1 + rate / 100.00), timespan);
+}
+
 int main()
 {
 	// get user input for principal, rate, and time span
