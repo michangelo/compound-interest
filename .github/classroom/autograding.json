@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "assignment_test",
-      "setup": "gpgtar -d -C . --gpg-args=\"--passphrase=RareTackingGoofyExorcism --batch\" autograder.gpg && make build",
+      "setup": "gpgtar -d -C . --gpg-args=\"--passphrase=RareTackingGoofyExorcism --batch\" .github/autograder.gpg && make build",
       "run": "make -k all",
       "input": "",
       "output": "",
