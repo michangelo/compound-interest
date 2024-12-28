@@ -1,10 +1,4 @@
-# C++ Assignment 1 - Compound Interest (Individual)
-
-**Complete individually** 
-
-To be completed after finishing Chapters 0-5 (Plus optional chapter O) on [LearnCPP](https://www.learncpp.com/)
-
-## Instructions
+# C++ Compound Interest Calculator
 
 Compound interest is where the interest of an initial 'principal' deposit is added to the principal, where the interest is reinvested to gain further interest. Therefore, as interest accumulates, the principal amount grows, so the interest grows, so the principal grows faster, and so on.
 
