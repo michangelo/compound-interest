@@ -1,4 +1,6 @@
-# C++ Compound Interest Calculator
+# compound-interest
+
+A simple C++ compound interest calculator.
 
 Compound interest is where the interest of an initial 'principal' deposit is added to the principal, where the interest is reinvested to gain further interest. Therefore, as interest accumulates, the principal amount grows, so the interest grows, so the principal grows faster, and so on.
 
@@ -13,14 +15,6 @@ $P = Principal$
 $R = interest Rate$
 
 $T = Time span$
-
-## Function
-
-`calculateInterest` function accepts these variables as arguments and returns a `double` with the compound interest total amount.
-
-In the program's `main` function please accept these variable variables as input from the user using `std::cin` and pass them to the `calculateInterest` function.
-
-Then output the total amount after the specified time period, and the total amount of compound interest accumulated without the principal
 
 ### Example
 
